@@ -1,7 +1,6 @@
 #include <stdio.h>
 
 /**
- *
  * main - Using size of to get size of data types
  *
  * printf: size of various types
@@ -22,5 +21,5 @@ int main(void)
 	printf("Size of a long long int: %lu byte(s)\n", (unsigned long)sizeof(ixx));
 	printf("Size of a float: %lu byte(s)\n", (unsigned long)sizeof(f));
 
-	return(0);
+	return (0);
 }
